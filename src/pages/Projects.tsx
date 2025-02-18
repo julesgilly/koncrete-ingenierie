@@ -1,20 +1,27 @@
 import { projects } from '../data/projets';
+import { Link } from 'react-router-dom';
 
 export function Projects() {
   return (
-    <div className="min-h-screen bg-gray-50 pt-24 mb-24">
+    <div className="min-h-screen bg-white pt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-primary rounded-lg p-8 mb-12">
-          <h1 className="text-3xl font-bold text-white mb-4">Nos Réalisations</h1>
-          <p className="text-gray-100 text-lg">
-            Découvrez l'ensemble de nos projets réalisés à travers la France. 
-            Chaque projet témoigne de notre expertise en ingénierie structurelle.
-          </p>
+        <div className="text-center pt-8 mb-8">
+            <h2 className="text-3xl font-bold text-gray-900 relative w-fit mx-auto">
+              Projets
+            </h2>
+            <p className="text-gray-600 max-w-3xl mx-auto pt-4">
+              Découvrez nos réalisations et les clients qui nous font confiance.
+            </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project, index) => (
-            <div key={index} className="bg-white overflow-hidden shadow-lg group">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+        {projects.map((project) => (
+            <Link
+              key={project.id}
+              to={`/projets/${project.id}`}
+              className="bg-white overflow-hidden shadow-lg group hover:shadow-xl transition-shadow"
+            >
+            <div className="bg-white overflow-hidden shadow-lg group">
               <div className="relative text-center overflow-hidden">
                 <img
                   src={project.image}
@@ -31,6 +38,7 @@ export function Projects() {
                 </div>
               </div>
             </div>
+          </Link>
           ))}
         </div>
       </div>

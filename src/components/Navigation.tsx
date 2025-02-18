@@ -32,7 +32,7 @@ export function Navigation() {
           <div className="hidden md:flex space-x-8">
             <Link to="/engagement" className="text-gray-700 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-secondary hover:after:w-full after:transition-all after:duration-300">Engagements</Link>
             <Link to="/projets" className="text-gray-700 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-secondary hover:after:w-full after:transition-all after:duration-300">Projets</Link>
-            <a href="/#team" className="text-gray-700 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-secondary hover:after:w-full after:transition-all after:duration-300">Équipe</a>
+            <Link to="/equipe" className="text-gray-700 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-secondary hover:after:w-full after:transition-all after:duration-300">Équipe</Link>
             <Link to="/contact" className="text-gray-700 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-secondary hover:after:w-full after:transition-all after:duration-300">Contact</Link>
           </div>
         </div>

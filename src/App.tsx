@@ -7,6 +7,8 @@ import { Projects } from './pages/Projects';
 import  Contact  from './pages/contact';
 import  Engagement  from './pages/Engagement';
 import { Legal }  from './pages/Legal';
+import { ProjectDetail }  from './pages/ProjectDetail';
+import { Team } from './pages/Team';
 
 
 function App() {
@@ -17,9 +19,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projets" element={<Projects />} />
+        <Route path="/projets/:id" element={<ProjectDetail />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/Engagement" element={<Engagement />} />
         <Route path="/mentions-legales" element={<Legal />} />
+        <Route path="/equipe" element={<Team />} />
       </Routes>
       <Footer />
     </div>
