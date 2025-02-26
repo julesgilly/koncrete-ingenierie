@@ -1,0 +1,25 @@
+# Autoriser tous les robots d'indexation
+User-agent: *
+Allow: /
+
+# Pages principales
+Allow: /engagement
+Allow: /projets
+Allow: /equipe
+Allow: /contact
+Allow: /mentions-legales
+
+# Sitemap
+Sitemap: https://koncrete-ingenierie.fr/sitemap.xml
+
+# Interdire l'accès aux fichiers système et temporaires
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /*.json$
+Disallow: /*.js$
+Disallow: /*.css$
+Disallow: /*?*
+Disallow: /node_modules/
+
+# Taux de crawl recommandé
+Crawl-delay: 10

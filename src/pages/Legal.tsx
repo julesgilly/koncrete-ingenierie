@@ -1,6 +1,6 @@
 export function Legal() {
     return (
-      <div className="min-h-screen bg-gray-50 pt-24 pb-12">
+      <div className="min-h-screen bg-white pt-24 pb-12">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="space-y-8 text-justify text-gray-700 mb-4">
                 <p>En vertu de l’article 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l’économie numérique, il est précisé aux utilisateurs du site internet https://koncrete-ingenierie.fr/ l’identité des différents intervenants dans le cadre de sa réalisation et de son suivi.</p>  

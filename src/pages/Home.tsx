@@ -5,15 +5,15 @@ import { projects } from '../data/projets';
 
 const heroImages = [
   {
-    url:"/homepage_1.png",
+    url:"/homepage_1.webp",
     alt:"Page de garde 1"
   },
   {
-    url:"/homepage_2.png",
+    url:"/homepage_2.webp",
     alt:"Page de garde 2"
   },
   {
-    url:"/homepage_3.png",
+    url:"/homepage_3.webp",
     alt:"Page de garde 3"
   }
 ];
@@ -63,12 +63,12 @@ export function Home() {
           <div className="absolute inset-0 bg-black/40"></div>
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center">
-          <div className="text-white">
+          <div className="text-gray-100">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              L'Excellence en Ingénierie Structurelle
+              Smart Engineering
             </h1>
-            <p className="text-xl md:text-2xl mb-8 max-w-2xl">
-              Nous concevons des structures durables et innovantes pour les projets de construction les plus ambitieux.
+            <p className="text-xl md:text-2xl mb-8 max-w-7xl">
+              Nous plaçons la collaboration et l’ingéniosité au cœur de nos méthodes et de notre savoir-faire pour offrir une expertise de qualité. 
             </p>
             <a
               href="#engagement"
@@ -89,9 +89,9 @@ export function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <h1 className="text-m font-bold text-gray-900 text-justify mb-8">Koncrete Ingénierie est un bureau d’études spécialisé dans le dimensionnement des structures pour les ouvrages neufs de bâtiment et la réhabilitation des constructions existantes. </h1>
+                <h2 className="text-m font-bold text-gray-900 text-justify mb-8">Koncrete Ingénierie est un bureau d’études spécialisé dans le dimensionnement des structures pour les ouvrages neufs de bâtiment et la réhabilitation des constructions existantes. </h2>
                 <h2 className="text-m text-gray-900 text-justify mb-8">Notre bureau d’études, spécialisé dans les structures en bois, métal, maçonnerie et béton armé, accompagne les architectes et maîtres d’ouvrage dans une approche sobre, cohérente et innovante des projets. Nous intervenons dès la phase de conception, en réalisant diagnostics structurels, études de conception, visas techniques et assistance à la maîtrise d’ouvrage, puis tout au long de l’exécution, en apportant notre expertise aux entreprises de construction à travers l’élaboration des plans d’exécution, le suivi de chantier et l’accompagnement technique. </h2>
-                <h2 className="text-m text-gray-900 text-justify mb-8">Notre entreprise repose sur des valeurs fortes — prise en charge et responsabilité personnelles et mutuelles, démocratie, égalité, équité et solidarité — qui nous inspirent au quotidien. C’est pourquoi nous avons choisi d’incarner notre vision sous la forme d’une SCOP (Société Coopérative et Participative), privilégiant la participation et le partage pour construire ensemble un avenir solidaire. </h2>
+                <h2 className="text-m text-gray-900 text-justify mb-8">Notre entreprise repose sur des valeurs fortes — prise en charge et responsabilité personnelles et mutuelles, démocratie, égalité, équité et solidarité — qui nous inspirent au quotidien. C’est pourquoi nous avons choisi d’incarner notre vision sous la forme d’une SCOP (Société Coopérative de Production), privilégiant la participation et le partage pour construire ensemble un avenir solidaire. </h2>
                 <div className="text-center">
                   <Link
                   to="/engagement"
@@ -130,7 +130,7 @@ export function Home() {
               <div key={index} className="bg-white overflow-hidden shadow-lg group">
                 <div className="relative overflow-hidden">
                   <img
-                    src={project.image}
+                    src={project.imageMiniature}
                     alt={project.title}
                     className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110"
                   />

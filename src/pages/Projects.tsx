@@ -6,9 +6,9 @@ export function Projects() {
     <div className="min-h-screen bg-white pt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center pt-8 mb-8">
-            <h2 className="text-3xl font-bold text-gray-900 relative w-fit mx-auto">
+            <h1 className="text-3xl font-bold text-gray-900 relative w-fit mx-auto">
               Projets
-            </h2>
+            </h1>
             <p className="text-gray-600 max-w-3xl mx-auto pt-4">
               Découvrez nos réalisations et les clients qui nous font confiance.
             </p>
@@ -24,7 +24,7 @@ export function Projects() {
             <div className="bg-white overflow-hidden shadow-lg group">
               <div className="relative text-center overflow-hidden">
                 <img
-                  src={project.image}
+                  src={project.imageMiniature}
                   alt={project.title}
                   className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
                 />
