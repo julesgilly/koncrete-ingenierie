@@ -19,7 +19,7 @@ export const projects = [
     {
       id: "messine",
       title: "Restructuration d'un ensemble immobilier architectural",
-      imageMiniature: "/public/Projets/Messine/Messine.webp",
+      imageMiniature: "/Projets/Messine/Messine.webp",
       image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80",
       location: " 6, rue de Messine - 75008 Paris",
       client: "Dumez",
@@ -35,7 +35,7 @@ export const projects = [
       id: "centre_aquatique",
       title: "Centre aquatique de la Grenouillère",
       imageMiniature: "https://images.unsplash.com/photo-1590274853856-f22d5ee3d228?auto=format&fit=crop&q=80",
-      image: "/public/Projets/Grenouillère/Grenouillère_2.webp",
+      image: "/Projets/Grenouillère/Grenouillère_2.webp",
       location: "4, avenue Sully Prudhomme - 92160 Antony",
       client: "Léon Grosse",
       phase: "Exécution",
@@ -64,7 +64,7 @@ export const projects = [
     {
       id: "campus_aken",
       title: "Construction neuve d'un bâtiment d'enseignement supérieur",
-      imageMiniature: "/public/Projets/AKEN/AKEN.webp",
+      imageMiniature: "/Projets/AKEN/AKEN.webp",
       image: "https://images.unsplash.com/photo-1577493340887-b7bfff550145?auto=format&fit=crop&q=80",
       location: "ZAC Gare la Vallée - 80000 Amiens",
       client: "A26",
