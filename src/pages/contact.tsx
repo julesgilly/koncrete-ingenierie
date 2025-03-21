@@ -9,7 +9,7 @@ export default function Contact() {
         <div className="bg-white shadow-md p-6 w-full max-w-3xl text-center">
           <p className="text-gray-700 text-lg"><strong>📍 Adresse :</strong> 73, rue de Vaugirard, 75006 Paris</p>
           <p className="text-gray-700 text-lg"><strong>📞 Téléphone :</strong> +33 6 10 96 31 69</p>
-          <p className="text-gray-700 text-lg"><strong>📧 Email :</strong> <a href="mailto:contact@koncrete-ing.fr" className="text-blue-600">contact@koncrete-ing.fr</a></p>
+          <p className="text-gray-700 text-lg"><strong>📧 Email :</strong> <a href="mailto:koncrete@koncrete-ing.fr" className="text-blue-600">koncrete@koncrete-ing.fr</a></p>
         </div>
   
         {/* Carte Google Maps */}

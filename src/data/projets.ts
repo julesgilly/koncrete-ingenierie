@@ -34,7 +34,7 @@ export const projects = [
     {
       id: "centre_aquatique",
       title: "Centre aquatique de la Grenouillère",
-      imageMiniature: "https://images.unsplash.com/photo-1590274853856-f22d5ee3d228?auto=format&fit=crop&q=80",
+      imageMiniature: "/Projets/Grenouillère/Miniature_Grenouillere.webp",
       image: "/Projets/Grenouillère/Grenouillère_2.webp",
       location: "4, avenue Sully Prudhomme - 92160 Antony",
       client: "Léon Grosse",
@@ -49,8 +49,8 @@ export const projects = [
     {
       id: "mennecy",
       title: "Création d'un ensemble immobilier de 68 logements",
-      imageMiniature: "https://images.unsplash.com/photo-1463797221720-6b07e6426c24?auto=format&fit=crop&q=80",
-      image: "https://images.unsplash.com/photo-1463797221720-6b07e6426c24?auto=format&fit=crop&q=80",
+      imageMiniature: "/Projets/Mennecy/Miniature_Mennecy.webp",
+      image: "/Projets/Mennecy/Capture d'écran 2025-03-21 104121.png",
       location: "3-15, avenue de la Jeannotte - 91540 Mennecy",
       client: "RH Construction",
       phase: "Exécution",
@@ -61,6 +61,7 @@ export const projects = [
       description: "-",
       detailedDescription: "-"
     },
+    /**
     {
       id: "campus_aken",
       title: "Construction neuve d'un bâtiment d'enseignement supérieur",
@@ -75,5 +76,5 @@ export const projects = [
       surface: "10 800 m²",
       description: "-",
       detailedDescription: "-"
-    }
+    } */
   ];

@@ -13,8 +13,8 @@ export function Legal() {
               <p className="mb-4">
                 Bureau d'Études Techniques<br />
                 Société coopérative de production à responsabilité limitée (SCOP ARL), à capital social variable, initialement de 1 500€<br />
-                RCS Paris B 123 456 789<br />
-                SIRET : 123 456 789 00012<br />
+                RCS Paris B 941 335 275<br />
+                SIRET : 941 335 275 00017<br />
                 Code APE : 7112B
               </p>
               <p>

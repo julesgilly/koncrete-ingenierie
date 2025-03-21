@@ -19,7 +19,7 @@ export function Footer() {
         <div className="mt-4 text-gray-300">
           <p>73, rue de Vaugirard, 75006 Paris</p>
           <p>+33 6 10 96 31 69</p>
-          <p>contact@koncrete-ing.fr</p>
+          <p>koncrete@koncrete-ing.fr</p>
         </div>
 
         {/* Copyright */}

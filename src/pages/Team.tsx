@@ -3,8 +3,8 @@ import { GraduationCap } from 'lucide-react';
 const team = [
   {
     name: "Hélène LABUSSIERE",
-    role: "Ingénieure structure - Gérante / Associée-salariée",
-    image: "",
+    role: "Ingénieure structure - Gérante",
+    image: "Profil_Helene.webp",
     diplomas: [
         "Diplôme d'ingénieure : INSA Lyon"
     ],
@@ -13,7 +13,7 @@ const team = [
   {
     name: "Datev ZADIGUIAN",
     role: "Ingénieur structure - Associé-salarié",
-    image: "",
+    image: "Profil_Datev.webp",
     diplomas: [
         "Diplôme d'ingénieur : Mines d'Alès"
     ],
@@ -22,7 +22,7 @@ const team = [
   {
     name: "Jules GILLY",
     role: "Ingénieur structure - Associé-salarié",
-    image: "",
+    image: "Profil_Jules.webp",
     diplomas: [
       "Diplôme d'ingénieur - Master : ESTP",
       "Master of Science en 'Mécanique des Structures' : UCLA"
@@ -47,7 +47,7 @@ export function Team() {
               key={index}
               className="bg-gray-50 shadow-lg overflow-hidden group hover:shadow-xl transition-shadow"
             >
-              <div className="relative h-80">
+              <div className="relative h-96 w-full">
                 <img
                   src={member.image}
                   alt={member.name}
@@ -60,7 +60,7 @@ export function Team() {
                 <p className="text-primary font-medium mb-4">{member.role}</p>
                 
                 <div className="space-y-3">
-                  <h4 className="flex items-center text-sm font-medium text-gray-700">
+                  <h4 className="items-center text-sm font-medium text-gray-700">
                     <GraduationCap className="h-5 w-5 mr-2 text-primary" />
                     Diplômes
                   </h4>

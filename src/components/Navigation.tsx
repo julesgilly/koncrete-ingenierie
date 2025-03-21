@@ -34,7 +34,7 @@ export function Navigation() {
           {/* LOGO */}
           <Link to="/" onClick={handleLogoClick} className="flex items-center focus:outline-none">
             <img
-              src="/Logo_K.png"
+              src="/Logo-K-2.webp"
               alt="Logo K"
               className="h-16 w-auto"
             />

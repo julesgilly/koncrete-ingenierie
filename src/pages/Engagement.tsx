@@ -25,7 +25,7 @@ const missions = [
       title: "Exécution",
       items: [
         "Réalisation des plans d'exécution : coffrage et armatures.",
-        "Dimensionnement et calcul des éléments structurels.",
+        "Dimensionnement, optimisation et calcul des éléments structurels.",
         "Participation aux réunions ETUDES et SYNTHESE."
       ]
     },
