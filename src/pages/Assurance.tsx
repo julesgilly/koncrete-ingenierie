@@ -82,7 +82,7 @@ export function Assurance() {
                     </div>
                     
                     <div>
-                    <div className="bg-gray-50 shadow-lg p-6">
+                    <div className="bg-gray-50 shadow-lg p-6 mb-4">
                         <h2 className="text-lg font-semibold mb-4">Attestation QR Code</h2>
                         <div className="flex justify-center">
                         <img

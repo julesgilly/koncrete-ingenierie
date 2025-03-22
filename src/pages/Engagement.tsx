@@ -1,5 +1,6 @@
 import { Building, Ruler, Zap } from 'lucide-react';
 import { Search, HardHat, ClipboardCheck, CheckCircle } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const missions = [
     {
@@ -164,12 +165,9 @@ export default function Engagement() {
                 <p className="text-gray-600 mb-6">
                     Contactez-nous pour discuter de vos besoins et découvrir comment nous pouvons vous accompagner.
                 </p>
-                <a 
-                    href="/contact" 
-                    className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:bg-primary/90 transition-colors"
-                >
-                    Nous contacter
-                </a>
+                <Link to="/contact" className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:bg-primary/90 transition-colors">
+                Nous contacter
+                </Link>
             </div>
         </div>
 
