@@ -10,6 +10,7 @@ import  Engagement  from './pages/Engagement';
 import { Legal }  from './pages/Legal';
 import { ProjectDetail }  from './pages/ProjectDetail';
 import { Team } from './pages/Team';
+import { Assurance } from './pages/Assurance';
 
 // Définition des titres et descriptions pour chaque route
 const routeMetadata = {
@@ -36,6 +37,10 @@ const routeMetadata = {
   '/mentions-legales': {
     title: "Mentions Légales - Koncrete Ingénierie",
     description: "Mentions légales et conditions d'utilisation du site du Bureau d'Études Techniques."
+  },
+  '/assurance': {
+    title: "Assurance - Koncrete Ingénierie",
+    description: "Attestation d'assurance professionnelle - Assurance de responsabilité civile et décennale"
   }
 };
 
@@ -67,6 +72,7 @@ function App() {
           <Route path="/Engagement" element={<Engagement />} />
           <Route path="/mentions-legales" element={<Legal />} />
           <Route path="/equipe" element={<Team />} />
+          <Route path="/assurance" element={<Assurance />} />
         </Routes>
       </main>
       <Footer />

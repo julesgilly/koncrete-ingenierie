@@ -65,8 +65,8 @@ export function ProjectDetail() {
               </div>
 
               <h3 className="text-lg font-semibold text-gray-900 mb-4">Description détaillée</h3>
-              <p className="text-gray-600 leading-relaxed">{project.description}</p>
-              <p className="text-gray-600 leading-relaxed">{project.detailedDescription}</p>
+              <p className="text-gray-600 text-justify leading-relaxed">{project.description}</p>
+              <p className="text-gray-600 text-justify leading-relaxed">{project.detailedDescription}</p>
             </div>
           </div>
 

@@ -41,10 +41,10 @@ export const projects = [
       phase: "Exécution",
       startDate: "Février 2024",
       endDate: "2026",
-      budget: "55M €",
+      budget: "78.4M €",
       surface: "22 000 m²",
-      description: "-",
-      detailedDescription: "-"
+      description: " ",
+      detailedDescription: "Le département des Hauts-de-Seine, propriétaire de la piscine de La Grenouillère à Antony, réaménage le site pour y édifier un centre aquatique moderne. Conçue dans les années 1970 et nécessitant une mise aux normes, l'infrastructure fait l'objet d'études depuis son acquisition en 2016 afin de proposer un équipement innovant, fonctionnant toute l'année tout en conservant l’attrait estival qui lui a valu sa renommée. Ce nouveau centre intégrera une dimension éducative (séances de natation scolaire) et sportive, avec plusieurs bassins permettant aux associations de bénéficier de créneaux sans conflit d’usage, et un bassin sportif intérieur homologué par la Fédération française de natation."
     },
     {
       id: "mennecy",

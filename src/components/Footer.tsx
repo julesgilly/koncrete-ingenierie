@@ -26,6 +26,8 @@ export function Footer() {
         <div className="border-t border-gray-700 mt-8 pt-8 text-gray-400">
           <p>Copyright &copy; 2025 Bureau d'Études Techniques. Tous droits réservé.</p>
           <Link to="/mentions-legales" className="text-gray-300 text-sm hover:text-white underline">Mentions légales</Link>
+          <span> / </span>
+          <Link to="/assurance" className="text-gray-300 text-sm hover:text-white underline">Assurance</Link>
         </div>
       </div>
     </footer>
