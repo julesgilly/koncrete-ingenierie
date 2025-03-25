@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo } from 'react';
 import { Link } from 'react-router-dom';
-import { ChevronDown} from 'lucide-react';
+import { ChevronDown, CheckCircle} from 'lucide-react';
 import { projects } from '../data/projets';
 
 const heroImages = [
@@ -85,13 +85,35 @@ export function Home() {
       </div>
 
       {/* Engagement Section */}
-      <section id="engagement" className="bg-white/100 flex flex-col items-center py-24 px-4 sm:px-6 lg:px-8 pt24">
+      <section id="engagement" className="bg-white/100 flex flex-col items-center py-24 px-4 sm:px-6 lg:px-8 pt16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <h2 className="text-m font-bold text-gray-900 text-justify mb-8">Koncrete Ingénierie est un bureau d’études spécialisé dans le dimensionnement des structures pour les ouvrages neufs de bâtiment et la réhabilitation des constructions existantes. </h2>
-                <h2 className="text-m text-gray-900 text-justify mb-8">Notre bureau d’études, spécialisé dans les structures en bois, métal, maçonnerie et béton armé, accompagne les architectes et maîtres d’ouvrage dans une approche sobre, cohérente et innovante des projets. Nous intervenons dès la phase de conception, en réalisant diagnostics structurels, études de conception, visas techniques et assistance à la maîtrise d’ouvrage, puis tout au long de l’exécution, en apportant notre expertise aux entreprises de construction à travers l’élaboration des plans d’exécution, le suivi de chantier et l’accompagnement technique. </h2>
-                <h2 className="text-m text-gray-900 text-justify mb-8">Notre entreprise repose sur des valeurs fortes — prise en charge et responsabilité personnelles et mutuelles, démocratie, égalité, équité et solidarité — qui nous inspirent au quotidien. C’est pourquoi nous avons choisi d’incarner notre vision sous la forme d’une SCOP (Société Coopérative de Production), privilégiant la participation et le partage pour construire ensemble un avenir solidaire. </h2>
+                <h2 className="text-m font-bold text-gray-900 text-justify mb-4">Koncrete Ingénierie est un bureau d’études spécialisé dans le dimensionnement des structures pour les ouvrages neufs de bâtiment et la réhabilitation des constructions existantes. </h2>
+                <h2 className="text-m text-gray-900 text-justify mb-4">Notre bureau d’études, spécialisé dans les structures en bois, métal, maçonnerie et béton armé, accompagne les architectes et maîtres d’ouvrage dans une approche sobre, cohérente et innovante des projets. Nous intervenons dès la phase de conception, en réalisant diagnostics structurels, études de conception, visas techniques et assistance à la maîtrise d’ouvrage, puis tout au long de l’exécution, en apportant notre expertise aux entreprises de construction à travers l’élaboration des plans d’exécution, le suivi de chantier et l’accompagnement technique. </h2>
+                <h2 className="text-m text-gray-900 text-justify mb-4">Notre entreprise repose sur des valeurs fortes — prise en charge et responsabilité personnelles et mutuelles, démocratie, égalité, équité et solidarité — qui nous inspirent au quotidien. C’est pourquoi nous avons choisi d’incarner notre vision sous la forme d’une SCOP (Société Coopérative de Production), privilégiant la participation et le partage pour construire ensemble un avenir solidaire. </h2>
+                <h2 className="text-m font-bold text-gray-900 text-justify mb-4">Nos services : </h2>
+                {/* CheckCircle avec missions */}
+                <div className="grid grid-cols-2 gap-4 text-gray-700 mb-6">
+                  <div className="flex items-center space-x-2">
+                    <CheckCircle className="h-5 w-5 text-primary" />
+                    <span>Diagnostic et faisabilité</span>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <CheckCircle className="h-5 w-5 text-primary" />
+                    <span>Conception</span>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <CheckCircle className="h-5 w-5 text-primary" />
+                    <span>Exécution</span>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <CheckCircle className="h-5 w-5 text-primary" />
+                    <span>Suivi de travaux</span>
+                  </div>
+                </div>
+
+                {/* Bouton vers la page Engagement */}
                 <div className="text-center">
                   <Link
                   to="/engagement"
@@ -105,7 +127,7 @@ export function Home() {
                 <img
                   src="/homepage_description.webp"
                   alt="Équipe d'ingénieurs au travail"
-                  className="shadow-xl w-full h-[500px] object-cover"
+                  className="shadow-xl w-full h-full object-cover"
                 />
                 <div className="absolute -bottom-6 -left-6 bg-primary/10 w-full h-full rounded-lg -z-10"></div>
               </div>

@@ -74,7 +74,7 @@ export function ProjectDetail() {
             <img
               src={project.image}
               alt={project.title}
-              className="w-full h-[520px] object-cover shadow-lg"
+              className="w-full h-full object-cover shadow-lg"
             />
             <div className="absolute -bottom-4 -right-4 bg-primary/10 w-full h-full rounded-lg -z-10"></div>
           </div>
