@@ -20,22 +20,38 @@ export const projects = [
       id: "messine",
       title: "Restructuration d'un ensemble immobilier architectural",
       imageMiniature: "/Projets/Messine/Messine.webp",
-      image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80",
-      location: " 6, rue de Messine - 75008 Paris",
+      image: [
+        {url:"/Projets/Messine/Messine_1.webp",
+        alt: "Dessin archi"},
+      ],
+      location: " 6/8, rue de Messine - 75008 Paris",
       client: "Dumez",
       phase: "Exécution",
       startDate: "Janvier 2023",
-      endDate: "Courant 2025",
-      budget: "-M €",
+      endDate: "Avril 2025",
+      budget: "26M €",
       surface: "7 450 m²",
-      description: "-",
-      detailedDescription: "-"
+      description: "Le bâtiment situé au 6-8, avenue de Messine à Paris est un exemple marquant de l’architecture haussmannienne du XIXe siècle.",
+      detailedDescription: `Conçu en 1875 par l’architecte Édouard Dainville pour la Compagnie d’assurances La Nationale, il s’inscrit dans la transformation urbaine d’un ancien site industriel en un ensemble résidentiel raffiné.
+      Sa façade en pierres de taille se distingue par ses ornements élaborés, incluant corniches, pilastres décoratifs et balcons continus. Ainsi, ce bâtiment se présente comme un témoignage d’excellence technique et de raffinement esthétique, alliant histoire, patrimoine et adaptation aux exigences contemporaines. 
+      Les principales intentions de ce projet comprennent, entre autres :
+      - Une restructuration des sous-sols pour l’installation de locaux techniques, fitness, foyer, salle polymorphe, cuisine, réserve, archives, local déchets, vestiaires, …
+      - Une restructuration du RDC pour l’installation d’un accueil, salons informels, cafétéria, ...
+      - Une mise en valeur de la cour intérieure avec la création d’une verrière et de zones plantées
+      - Une mise en valeur de la façade et de l’entrée principale`
     },
     {
       id: "centre_aquatique",
       title: "Centre aquatique de la Grenouillère",
       imageMiniature: "/Projets/Grenouillère/Miniature_Grenouillere.webp",
-      image: "/Projets/Grenouillère/Grenouillère_2.webp",
+      image: [
+        {url:"/Projets/Grenouillère/Grenouillère_2.webp",
+        alt: "Vue VPP"},
+        {url:"/Projets/Grenouillère/Grenouillère_3.webp",
+          alt: "Vue des bassins - 28/03/2025"},
+        {url:"/Projets/Grenouillère/Grenouillère_4.webp",
+          alt: "Vue des gradins et poutres crémaillères - 28/03/2025"},
+      ],
       location: "4, avenue Sully Prudhomme - 92160 Antony",
       client: "Léon Grosse",
       phase: "Exécution",
@@ -50,16 +66,19 @@ export const projects = [
       id: "mennecy",
       title: "Création d'un ensemble immobilier de 68 logements",
       imageMiniature: "/Projets/Mennecy/Miniature_Mennecy.webp",
-      image: "/Projets/Mennecy/Capture d'écran 2025-03-21 104121.png",
+      image: [
+        {url:"/Projets/Mennecy/Capture d'écran 2025-03-21 104121.png",
+        alt: "Dessin archi"},
+      ],
       location: "3-15, avenue de la Jeannotte - 91540 Mennecy",
       client: "RH Construction",
       phase: "Exécution",
       startDate: "Octobre 2024",
-      endDate: "NC",
-      budget: "-M €",
+      endDate: "2026",
+      budget: "NC",
       surface: "4 109 m²",
-      description: "-",
-      detailedDescription: "-"
+      description: "Construction de 68 logements en 4 bâtiments et 5 locaux d'activités dont un auditorium.",
+      detailedDescription: "La spécificité du projet consiste à créer un espace scénique à l'intérieur de l'auditorium, pouvant accueillir différents types d'activités de représentation musicale avec sonorisation. "
     },
     /**
     {
