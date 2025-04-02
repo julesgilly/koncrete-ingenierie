@@ -8,6 +8,7 @@ Allow: /projets
 Allow: /equipe
 Allow: /contact
 Allow: /mentions-legales
+Allow: /assurance
 
 # Sitemap
 Sitemap: https://koncrete-ingenierie.fr/sitemap.xml

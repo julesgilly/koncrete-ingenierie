@@ -3,7 +3,7 @@
   <!-- Page d'accueil -->
   <url>
     <loc>https://koncrete-ingenierie.fr/</loc>
-    <lastmod>2024-03-20</lastmod>
+    <lastmod>2025-04-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -11,7 +11,7 @@
   <!-- Services -->
   <url>
     <loc>https://koncrete-ingenierie.fr/engagement</loc>
-    <lastmod>2024-03-20</lastmod>
+    <lastmod>2025-04-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -19,7 +19,7 @@
   <!-- Projets -->
   <url>
     <loc>https://koncrete-ingenierie.fr/projets</loc>
-    <lastmod>2024-03-20</lastmod>
+    <lastmod>2025-04-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -27,25 +27,19 @@
   <!-- Pages de projets individuels -->
   <url>
     <loc>https://koncrete-ingenierie.fr/projets/messine</loc>
-    <lastmod>2024-03-20</lastmod>
+    <lastmod>2025-04-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://koncrete-ingenierie.fr/projets/centre_aquatique</loc>
-    <lastmod>2024-03-20</lastmod>
+    <lastmod>2025-04-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://koncrete-ingenierie.fr/projets/mennecy</loc>
-    <lastmod>2024-03-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://koncrete-ingenierie.fr/projets/campus_aken</loc>
-    <lastmod>2024-03-20</lastmod>
+    <lastmod>2025-04-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -53,7 +47,7 @@
   <!-- Équipe -->
   <url>
     <loc>https://koncrete-ingenierie.fr/equipe</loc>
-    <lastmod>2024-03-20</lastmod>
+    <lastmod>2025-04-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -61,7 +55,7 @@
   <!-- Contact -->
   <url>
     <loc>https://koncrete-ingenierie.fr/contact</loc>
-    <lastmod>2024-03-20</lastmod>
+    <lastmod>2025-04-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -69,7 +63,15 @@
   <!-- Mentions légales -->
   <url>
     <loc>https://koncrete-ingenierie.fr/mentions-legales</loc>
-    <lastmod>2024-03-20</lastmod>
+    <lastmod>2025-04-02</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+    <!-- Assurance -->
+  <url>
+    <loc>https://koncrete-ingenierie.fr/assurance</loc>
+    <lastmod>2025-04-02</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
