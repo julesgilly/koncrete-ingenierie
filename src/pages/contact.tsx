@@ -19,7 +19,6 @@ export default function Contact() {
             className="w-full h-64 shadow-md"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.614640849036!2d2.322756975960929!3d48.846488801544815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671cd8ac7f703%3A0xfdb62d6fa65f79e7!2s73%20Rue%20de%20Vaugirard%2C%2075006%20Paris!5e0!3m2!1sfr!2sfr!4v1738864951751!5m2!1sfr!2sfr"
             allowFullScreen
-            loading="lazy"
           ></iframe>
         </div>
   

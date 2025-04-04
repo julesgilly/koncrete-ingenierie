@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Si la requête ne correspond pas à un fichier existant...
+  RewriteCond %{REQUEST_FILENAME} !-f
+  # ...et pas à un répertoire existant...
+  RewriteCond %{REQUEST_FILENAME} !-d
+  # ...alors réécrire la requête pour qu'elle pointe vers index.html
+  RewriteRule ^.*$ /index.html [QSA,L]
+</IfModule>
