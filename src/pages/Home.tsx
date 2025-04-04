@@ -123,10 +123,10 @@ export function Home() {
                   </Link>
                 </div>
               </div>
-              <div className="relative">
+              <div className="relative h-full">
                 <img
                   src="/homepage_description.webp"
-                  alt="Équipe d'ingénieurs au travail"
+                  alt="Photo des fondateurs"
                   className="shadow-xl w-full h-full object-cover"
                 />
                 <div className="absolute -bottom-6 -left-6 bg-primary/10 w-full h-full rounded-lg -z-10"></div>
