@@ -6,7 +6,7 @@ import { projects } from '../data/projets';
 const heroImages = [
   {
     url:"/homepage_1.webp",
-    alt:"Page de garde 1"
+    alt:"Page de garde 1",
   },
   {
     url:"/homepage_2.webp",
